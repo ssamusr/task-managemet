@@ -1,34 +1,26 @@
-import { SideNavBar } from '../components/SideNavBar/SideNavBar'
 
 export function HomePage (): JSX.Element {
   return (
         <>
       <div className='w-full h-screen'>
-      <SideNavBar />
       <header className='flex items-center justify-between w-[calc(100%-14rem)] h-auto fixed top-0 left-56 pt-6 pr-16 pb-4 pl-6 bg-dark-black'>
         <button
           className='px-6 py-2 text-white bg-cian-turquoise rounded-lg'
         >
           Nueva Tarea
         </button>
-        <span>
-          Icono
-        </span>
 
         <div className='flex items-center gap-4'>
-          <p>¡Qué tengas un buen día, username!</p>
+          <p className="text-white">¡Qué tengas un buen día, username!</p>
           <button
             className='w-10 h-10 rounded-full bg-cian-turquoise border-white border-2'
           >
-          </button>
-          <button className='w-5 h-5 rounded-sm bg-cian-turquoise text-white'>
-            A
           </button>
         </div>
 
       </header>
 
-      <main className='flex w-[calc(100%-14rem)] h-full fixed top-20 left-56 bg-dark-black'>
+      <main className='flex w-[calc(100%-14rem)] h-full fixed top-20 left-56 pr-10 bg-dark-black'>
         <section
           className='w-full h-full'
         >
