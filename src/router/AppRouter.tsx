@@ -1,11 +1,11 @@
 import { Route, Routes } from 'react-router-dom'
-import { SideNavBar } from './components/SideNavBar/SideNavBar'
-import { ChatPage } from './pages/ChatPage'
-import { HomePage } from './pages/HomePage'
-import { TasksPage } from './pages/TasksPage'
-import { TimelinePage } from './pages/TimelinePage'
+import { SideNavBar } from '../components/SideNavBar/SideNavBar'
+import { ChatPage } from '../pages/ChatPage'
+import { HomePage } from '../pages/HomePage'
+import { TasksPage } from '../pages/TasksPage'
+import { TimelinePage } from '../pages/TimelinePage'
 
-function App (): JSX.Element {
+export function AppRouter (): JSX.Element {
   return (
     <>
       <SideNavBar />
@@ -20,5 +20,3 @@ function App (): JSX.Element {
     </>
   )
 }
-
-export default App
